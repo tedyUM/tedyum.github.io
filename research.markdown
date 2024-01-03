@@ -7,7 +7,7 @@ order: 1
 
 ## Research lines
 
-The relevance of temporal information and temporal coding is important for many cognitive domains. I can divide my research in the following research lines
+The relevance of temporal information and temporal coding is important for many cognitive domains. Our research group has the following research lines.
 ### [Temporal tracking versus temporal coding](/main/research/lines/2022/01/24/tracking-versus-coding.html)
 
 ### [Speech and language](/main/research/lines/2022/01/24/speech-and-language.html)
