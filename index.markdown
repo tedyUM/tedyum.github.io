@@ -3,8 +3,10 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 ---
-
-layout: page
+layout: home
+title: Home
+permalink: /
+order: 1
 <!--- img src="{{ site.baseurl }}assets/images/pic_SO.jpg" title="Sanne ten Oever" alt="Sanne ten Oever" width="200" align=left style="padding-right:10pt; padding-bottom:10pt"/ --->
 
 ## Temporal dynamics inside and outside the brain
