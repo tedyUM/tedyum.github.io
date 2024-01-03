@@ -3,8 +3,8 @@ firstname: Sanne
 surname: ten Oever
 role: Group leader
 order:
-</--- alumni: 01/06/2022
-current-position: Assistant professor, psychology department, Maastricht --->
+alumni: 
+current-position: 
 
 email: sanne.tenoever@maastrichtuniversity.nl
 
