@@ -54,6 +54,153 @@ main {
 }
 
 /**
+ * Headings
+ */
+
+ h3.thin {
+  text-transform: uppercase;
+  font-weight: 200;
+  color: $grey-color;
+  margin: 3.75rem 0 1.25rem;
+}
+
+h5.header {
+  // line-height: 200%;
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-align: justify;
+  color: lighten($text-color, 25%);
+  margin-bottom: 3rem;
+}
+
+
+
+/**
+ * People : use flexbox for responsive layout
+ */
+
+.members {
+  margin-top: 7rem;
+}
+
+.member {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+  max-width: 1100px;
+
+  @include media-query(900px) {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 7.5rem;
+    margin-bottom: 10rem;
+  }
+}
+
+.member .image {
+  display: flex;
+  align-items: baseline;
+  margin: 0;
+
+  @include media-query(900px) {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+}
+
+.member .image img {
+  border: 0;
+  filter: grayscale(25%);
+  -webkit-filter: grayscale(25%);
+  width: 12rem;
+
+  @include media-query(900px) {
+    width: 27vw;
+  }
+
+  @include media-query(700px) {
+    width: 31vw;
+  }
+
+  @include media-query(500px) {
+    width: 35vw;
+  }
+
+  @include media-query(500px) {
+    width: 40vw;
+  }
+}
+
+.member .info {
+  padding-right: 0;
+  padding-left: $spacing-unit;
+
+  @include media-query(900px) {
+    padding-left: 0;
+  }
+}
+
+.member .info .name {
+  text-align: left;
+  margin-top: 0;
+  font-weight: 600;
+  font-size: 1.75rem;
+
+  @include media-query(900px) {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+}
+
+.member .info .role {
+  text-align: left;
+  font-weight: 200;
+  color: $grey-color;
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+  margin-top: 0.5rem;
+
+  @include media-query(900px) {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.member .info .contacts {
+  text-align: left;
+  margin-top: 0.25rem;
+  margin-bottom: 1.5rem;
+
+  @include media-query(900px) {
+    text-align: center;
+    margin: 1.5rem 0;
+  }
+
+  ul {
+    display: inline;
+    margin: 0;
+  }
+
+  li {
+    display: inline;
+    list-style: none;
+    padding-right: 0.35rem;
+    font-size: 1.5rem;
+
+    @include media-query(900px) {
+      font-size: 1.75rem;
+    }
+  }
+}
+
+
+/**
  * Images
  */
 img {
