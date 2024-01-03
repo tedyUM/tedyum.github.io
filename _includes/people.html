@@ -20,7 +20,7 @@
 {% endfor %}
 
 <div class="members">
-  <h5 class="header">person.firstname</h5>
+  {% for person in group-leader %}
   <div class="member">
       <div class="image">
         {% if person.image_path != '' %}
