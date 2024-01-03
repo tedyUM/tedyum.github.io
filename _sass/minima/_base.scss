@@ -10,10 +10,7 @@ p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
-
 }
-
-
 
 /**
  * Basic styling
@@ -33,8 +30,6 @@ body {
   flex-direction: column;
   overflow-wrap: break-word;
 }
-
-
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -58,8 +53,6 @@ main {
   display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
 
-
-
 /**
  * Images
  */
@@ -67,8 +60,6 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
-
-
 
 /**
  * Figures
@@ -80,8 +71,6 @@ figure > img {
 figcaption {
   font-size: $small-font-size;
 }
-
-
 
 /**
  * Lists
@@ -103,8 +92,6 @@ li {
 h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
 }
-
-
 
 /**
  * Links
@@ -131,7 +118,6 @@ a {
   }
 }
 
-
 /**
  * Blockquotes
  */
@@ -150,8 +136,6 @@ blockquote {
     font-style: normal;
   }
 }
-
-
 
 /**
  * Code formatting
@@ -190,8 +174,6 @@ pre {
   }
 }
 
-
-
 /**
  * Wrapper
  */
@@ -210,8 +192,6 @@ pre {
   }
 }
 
-
-
 /**
  * Clearfix
  */
@@ -220,8 +200,6 @@ pre {
   display: table;
   clear: both;
 }
-
-
 
 /**
  * Icons
@@ -243,7 +221,6 @@ pre {
   padding: 5px 3px 2px 5px;
   vertical-align: text-bottom;
 }
-
 
 /**
  * Tables
