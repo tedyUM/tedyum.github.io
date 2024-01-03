@@ -143,12 +143,6 @@ li.more-space {
         {% assign SP_initials = SP_initials | append: aninitial | append: "." %}
       {% endfor %}
       {% assign initials = initials | append: SP_initials | append: ";" %}
-      {% if first_last[0] == " Sack" %}
-        {% assign index = forloop.index0 %}
-      {% elsif first_last[0] == " Sack" %}
-        {% assign index = forloop.index0 %}
-      {% endif %}
-
       {% assign last_names = last_names | append: first_last[0] %}
       {% if forloop.last == false %}
         {% assign last_names = last_names | append: ";" %}
@@ -175,13 +169,7 @@ li.more-space {
       {% endfor %}
     {% elsif style == "apa" or style == "harvard" or style == "vancouver"%}
       {% for first_name in first_names %}
-        {% assign first_initial = first_name | slice: 1 %}
-        {% if index == forloop.index0 %}
-          <!--- {% assign formatted_author_list = formatted_author_list | append: "<b>" |  append: last_names[forloop.index0] | append: ", " | append: initials[forloop.index0] | append: "</b>" %} --->
-          {% assign formatted_author_list = formatted_author_list | append: last_names[forloop.index0] | append: ", " | append: initials[forloop.index0] %}
-        {% else %}
-          {% assign formatted_author_list = formatted_author_list | append: last_names[forloop.index0] | append: ", " | append: initials[forloop.index0] %}
-        {% endif %}
+        {% assign first_initial = first_name | slice: 1 %}       
         {% if style == "apa" or style == "harvard" %}
           {% assign formatted_author_list = formatted_author_list %}
         {% endif %}
