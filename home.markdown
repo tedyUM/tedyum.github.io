@@ -2,7 +2,11 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+---
+layout: page
+title: Home
+permalink: /home/
+order: 1
 ---
 <!--- img src="{{ site.baseurl }}assets/images/pic_SO.jpg" title="Sanne ten Oever" alt="Sanne ten Oever" width="200" align=left style="padding-right:10pt; padding-bottom:10pt"/ --->
 
