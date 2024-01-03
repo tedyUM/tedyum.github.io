@@ -51,3 +51,15 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# read in static image files
+defaults:
+  - scope:
+      path: "assets/images/headshots"
+    values:
+      image: true
+
+collections:
+  people:
+
+array: []
