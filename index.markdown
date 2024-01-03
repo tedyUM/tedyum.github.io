@@ -12,7 +12,7 @@ Rhythm and temporal information is used to optimize perception. We use temporal 
 
 How can the brain track continuously incoming information but use at the same time the same temporal dimension to code information? To do this the brain needs to compute in time as well as  with time.
 
-Our group investigates this problem. We use EEG, but also MEG, EcoG, brain stimulation, and more recently computational modeling.
+Our group investigates how our brain can track temporal structure and how temporal dynamics in the brain are relevant for various cognitive functions such as memory, speech, and attention. We use EEG, but also MEG, EcoG, brain stimulation, and more recently computational modeling.
 <br><br>
 
 
