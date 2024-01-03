@@ -5,6 +5,6 @@ permalink: /contact/
 order: 3
 ---
 
-You can contact me by sending and email to [{{ site.email }}](mailto:{{ site.email }})
+You can contact us by sending and email to [{{ site.email }}](mailto:{{ site.email }})
 
-I much welcome questions regarding my work, either content or code. I am also very happy to welcome you if you are interested in collaborating or doing an internship.
+We welcome questions regarding our work, either content or code.
