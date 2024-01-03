@@ -2,7 +2,7 @@
 layout: page
 title: Publications
 permalink: /publications/
-order: 2
+order: 4
 ---
 
 {% include publication.html link=true %}
