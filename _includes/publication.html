@@ -143,9 +143,9 @@ li.more-space {
         {% assign SP_initials = SP_initials | append: aninitial | append: "." %}
       {% endfor %}
       {% assign initials = initials | append: SP_initials | append: ";" %}
-      {% if first_last[0] == " Ten Oever..." %}
+      {% if first_last[0] == " Ten Oever" %}
         {% assign index = forloop.index0 %}
-      {% elsif first_last[0] == " ten Oever..." %}
+      {% elsif first_last[0] == " ten Oever" %}
         {% assign index = forloop.index0 %}
       {% endif %}
 

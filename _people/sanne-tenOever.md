@@ -3,13 +3,13 @@ firstname: Sanne
 surname: ten Oever
 role: Group leader
 order:
-alumni: 
-current-position: 
+alumni:
+current-position:
 
 email: sanne.tenoever@maastrichtuniversity.nl
 
 website: sannetenoever.github.io
-twitter: @TenOever_Sanne
+twitter: TenOever_Sanne
 researchgate: Sanne_Ten_Oever
 impactstory:
 orcid: 0000-0001-7547-5842
