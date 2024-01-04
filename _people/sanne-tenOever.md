@@ -8,7 +8,7 @@ current-position:
 
 email: sanne.tenoever@maastrichtuniversity.nl
 
-website: sannetenoever.github.io
+website:
 twitter: TenOever_Sanne
 researchgate: Sanne_Ten_Oever
 impactstory:
