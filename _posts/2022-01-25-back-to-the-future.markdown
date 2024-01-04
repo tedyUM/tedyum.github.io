@@ -17,7 +17,7 @@ The human brain consists of many different areas that need to communicate with e
 <img src="{{ site.baseurl }}/assets/images/WP7_small.png" title="closed-loop" alt="closed-loop" width="300" align=right style="padding-left:10pt; padding-bottom:10pt"/>
 Closed-loop systems measure the brain signal and can stimulate the brain dependent on the current brain state. So far, closed-loop systems have been used to deliver brain stimulation at specific moments of ongoing brain dynamics. Rather than using the EEG solely as a trigger to stimulate, in this project we will use the EEG to stimulate the brain’s activity thereby mimicking anticipation through feedback loops in the brain.
 
-<img src="{{ site.baseurl }}/assets/images/European_Research_Council_logo.png" title="ERC" alt="ERC" width="75" align=right style="padding-left:10pt; padding-bottom:10pt"/>
+<img src="{{ site.baseurl }}/assets/images/European_Research_Council_logo.png" title="ERC" alt="ERC" width="75" align=left style="padding-left:10pt; padding-bottom:10pt"/>
 
 <br>
 

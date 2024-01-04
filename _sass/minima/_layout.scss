@@ -44,7 +44,7 @@
     font-weight: 400;
 
     &:hover {
-      color: hsl(0, 100%, 66%);
+      color: hsl(31, 96%, 27%);
       text-decoration: none;
     }
 
@@ -55,7 +55,7 @@
   }
 
   .current-page {
-    color: hsl(0, 100%, 66%);
+    color: hsl(31, 96%, 27%);
   }
 
   @include media-query(700px) {
