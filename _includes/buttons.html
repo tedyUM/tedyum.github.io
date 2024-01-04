@@ -14,7 +14,11 @@
     {% if person.twitter != nil %}
     <li><a href="//twitter.com/{{ person.twitter }}" title="Follow {{ person.firstname }} {{ person.surname }} on Twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
     {% endif %}
-  
+
+    {%- if person.linkedin != nil %}
+    <li><a href="//linkedin.com/in/{{ person.linkedin }}" title="View {{ person.firstname }} {{ person.surname }} on LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>    
+    {% endif %}
+
     {% if person.impactstory != nil %}
     <li><a href="//impactstory.org/u/{{ person.impactstory }}" title="View {{ person.firstname }} {{ person.surname }}'s Impactstory" target="_blank"><i class="ai ai-impactstory"></i></a></li>
     {% endif %}

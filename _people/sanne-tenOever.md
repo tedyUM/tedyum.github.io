@@ -14,6 +14,7 @@ researchgate: Sanne_Ten_Oever
 impactstory:
 orcid: 0000-0001-7547-5842
 github: sannetenoever
+linkedin: sanne-ten-oever-a33a4188
 
 image_path: /assets/images/headshots/pic_SO.jpg
 
