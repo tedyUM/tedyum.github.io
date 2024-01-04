@@ -14,6 +14,7 @@ researchgate:
 impactstory:
 orcid: 
 github: 
+linkedin:
 
 image_path: /assets/images/headshots/salil_photo.jpg
 
