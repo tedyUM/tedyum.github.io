@@ -28,9 +28,9 @@
       </div>
       <div class="info">
         <div class="name">{{ person.firstname }} {{ person.surname }}</div>
-        <div class="role">Research Group Leader</div>
-        <div class="contacts">{% include buttons.html %}</div>
+        <div class="role">Research Group Leader</div>        
         <p>{{ person.bio }}</p>
+        <div class="contacts">{% include buttons.html %}</div>
       </div>
   </div>
   {% endfor %}
@@ -43,13 +43,15 @@
       <div class="info">
         <div class="name">{{ person.firstname }} {{ person.surname }}</div>
         <div class="role">{{ person.role }}</div>
-        <div class="contacts">{% include buttons.html %}</div>
         <p>{{ person.bio }}</p>
+        <div class="contacts">{% include buttons.html %}</div>
       </div>
   </div>
   {% endfor %}
 
-  <h1 class="post-title">Alumni</h1>
+  {% if alumni != nil %}
+    <h1 class="post-title">Alumni</h1>
+  {% endif % }
   {% for person in alumni %}
   <div class="member">
       <div class="image">
