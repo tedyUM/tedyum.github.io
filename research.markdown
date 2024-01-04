@@ -24,9 +24,9 @@ In this research line we investigate the role of neural oscillations in organizi
 
 ## Funded Research
 
-<img src="{{ site.baseurl }}/assets/images/European_Research_Council_logo.png" title="ERC" alt="ERC" width="75" align=right style="padding-left:10pt; padding-bottom:10pt"/>
-
 ### [ERC starter grant: Back to the Future](/main/research/lines/2023/01/24/back-to-the-future.html)
+
+<img src="{{ site.baseurl }}/assets/images/European_Research_Council_logo.png" title="ERC" alt="ERC" width="75" align=right style="padding-left:10pt; padding-bottom:10pt"/>
 
 In this research we will investigate anticipatory mechanisms that foster communication between frontal and sensory cortex during perception. The goal is to better understand this communication using computational modelling, EEG and EcoG as well as develop a new closed-loop EEG-tACS set-up that can mimic anticipatory brain operations.
 
