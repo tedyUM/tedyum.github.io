@@ -16,14 +16,6 @@
     {% endif %}
 
     
-    {%- if person.github != nil -%}<li><a href="https://github.com/{{ person.github }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> <span class="username">{{ person.github| escape }}</span></a></li>{%- endif -%}  
-
-    {% if person.github != nil %}
-    <li class="logo">
-      <a href="//github.com/{{ person.github}}" title="Fork {{ person.firstname }} {{ person.surname }} on GitHub" target="_blank">
-        <img class="logo" src="{{ base.url }}/assets/images/icons/github.svg" alt="github">
-      </a>
-    </li>
-    {% endif %}
+    {%- if person.github != nil -%}<li><a href="https://github.com/{{ person.github }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> <span class="username">{{" "}}</span></a></li>{%- endif -%}  
   
   </ul>
