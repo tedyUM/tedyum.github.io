@@ -14,7 +14,8 @@
 {% endfor %}
 
 <h1 class="post-title">People</h1>
-<h5 class="header">Our group consists of international scientists consisting of cognitive neuroscientists, computational neuroscientists, and pyschologist</h5>
+<!--- <h5 class="header">Our group consists of international scientists consisting of cognitive neuroscientists, computational neuroscientists, and pyschologist</h5>
+--->
 
 <div class="members">
   {% for person in group-leader %}
@@ -25,6 +26,10 @@
         {% else %}
           <img src="{{ site.baseurl }}{{ person.image_path }}" title="{{ person.firstname }} {{ person.surname }}" alt="{{ person.firstname }} {{ person.surname }}" style="visibility: hidden;"/>
         {% endif %}
+      </div>
+      <div class="info2">
+        <div class="name">{{ person.firstname }} {{ person.surname }}</div>
+      </div>
       </div>
       <div class="info">
         <div class="name">{{ person.firstname }} {{ person.surname }}</div>
