@@ -21,6 +21,7 @@
   {% for person in group-leader %}
   <div class="member">
       <div class="image">
+        <div class="name">{{ person.firstname }} {{ person.surname }}</div>
         {% if person.image_path != '' %}
           <img src="{{ site.baseurl }}{{ person.image_path }}" title="{{ person.firstname }} {{ person.surname }}" alt="{{ person.firstname }} {{ person.surname }}" />
         {% else %}
