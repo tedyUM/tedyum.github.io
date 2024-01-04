@@ -38,13 +38,13 @@
   {% for person in everyone-else %}
   <div class="member">
       <div class="image">
-        <div class="name">{{ person.firstname }} {{ person.surname }}</div>
-        <div class="role">{{ person.role }}</div>
-        <div class="contacts">{% include buttons.html %}</div>
         <img src="{{ site.baseurl }}{{ person.image_path }}" title="{{ person.firstname }} {{ person.surname }}" alt="{{ person.firstname }} {{ person.surname }}" />
       </div>
       <div class="info">
+        <div class="name">{{ person.firstname }} {{ person.surname }}</div>
+        <div class="role">{{ person.role }}</div>
         <p>{{ person.bio }}</p>
+        <div class="contacts">{% include buttons.html %}</div>
       </div>
   </div>
   {% endfor %}
