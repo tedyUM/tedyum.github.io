@@ -119,19 +119,6 @@ h5.header {
   }
 }
 
-.member .image .name {
-  text-align: left;
-  margin-top: 0;
-  font-weight: 400;
-  font-size: 1.5rem;
-
-  @include media-query(900px) {
-    margin-top: 1.5rem;
-    margin-bottom: 0.5rem;
-    text-align: center;
-  }
-}
-
 .member .image img {
   border: 0;
   filter: grayscale(25%);
