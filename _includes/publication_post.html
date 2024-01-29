@@ -49,13 +49,13 @@ li.more-space {
 {% for citation in pub_list %}
   <!--- write the year at the top  --->
   {% assign pub_year = citation.Year %}
-  {% if year_header != pub_year %}
-    <div class="year">
+  <!--- {% if year_header != pub_year %}
+     <div class="year">
       <br>
       <h3 class="thin">{{ citation.Year }}</h3>
     </div>
     {% assign year_header = pub_year %}
-  {% endif %}
+  {% endif %} --->
 
   {% if include.venue %}
     {% assign publication = citation.Publication | downcase %}
