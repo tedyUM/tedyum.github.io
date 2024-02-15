@@ -1,7 +1,7 @@
 ---
 firstname: Antonia
 surname: Raißle
-role: Research MSc Student
+role: MSc student
 order:
 alumni:
 current-position:
