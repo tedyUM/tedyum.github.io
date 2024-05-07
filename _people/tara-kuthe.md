@@ -11,7 +11,7 @@ email: tara.kuthe@student.maastrichtuniversity.nl
 website:
 twitter: 
 researchgate: 
-impactstory:
+impactstory:s
 orcid: 0009-0005-9868-7641
 github: TaraKue
 linkedin: tara-küthe
