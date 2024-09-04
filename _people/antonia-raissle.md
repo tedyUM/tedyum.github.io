@@ -6,7 +6,7 @@ order:
 alumni:
 current-position:
 
-email: a.raile@maastrichtuniversity.nl
+email: antonia.raissle@maastrichtuniversity.nl
 
 website:
 twitter: 
