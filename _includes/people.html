@@ -1,7 +1,7 @@
 {% assign people = site.people | sort_natural: 'surname' %}
 {% assign group-leader = site.array %}
 {% assign postdoc = site.array %}
-{% assign phds = site.array %}
+{% assign phd = site.array %}
 {% assign everyone-else = site.array %}
 {% assign alumni = site.array %}
 
@@ -11,7 +11,7 @@
   {% elsif person.role == 'PostDoc' %}
     {% assign postdoc = postdoc | push: person %} 
   {% elsif person.role == 'PhD' %}
-    {% assign pdhs = phds | push: person %}      
+    {% assign pdh = phd | push: person %}      
   {% elsif person.alumni != nil %}
     {% assign alumni = alumni | push: person | sort: 'alumni' %}
   {% elsif person.alumni == nil %}
@@ -60,7 +60,7 @@
   </div>
   {% endfor %}
 
-  {% for person in phds%}
+  {% for person in phd%}
   <div class="member">
       <div class="image">
         {% if person.image_path != '' %}
