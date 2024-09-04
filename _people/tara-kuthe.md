@@ -1,7 +1,7 @@
 ---
 firstname: Tara
 surname: Küthe
-role: PhD student
+role: PhD
 order:
 alumni:
 current-position:
@@ -11,7 +11,7 @@ email: tara.kuthe@student.maastrichtuniversity.nl
 website:
 twitter: 
 researchgate: 
-impactstory:s
+impactstory:
 orcid: 0009-0005-9868-7641
 github: TaraKue
 linkedin: tara-küthe
