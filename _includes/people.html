@@ -11,7 +11,7 @@
   {% elsif person.role == 'PostDoc' %}
     {% assign postdoc = postdoc | push: person %} 
   {% elsif person.role == 'PhD' %}
-    {% assign pdh = phd | push: person %}      
+    {% assign phd = phd | push: person %}   
   {% elsif person.alumni != nil %}
     {% assign alumni = alumni | push: person | sort: 'alumni' %}
   {% elsif person.alumni == nil %}
