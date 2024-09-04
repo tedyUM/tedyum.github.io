@@ -12,9 +12,9 @@ website:
 twitter: 
 researchgate:
 impactstory:
-orcid: 
-github: 
-linkedin:
+orcid: 0000-0003-4271-6309
+github: salil-maastricht
+linkedin: salil-bhat-a6070b124
 
 image_path: /assets/images/headshots/salil_photo.jpg
 
