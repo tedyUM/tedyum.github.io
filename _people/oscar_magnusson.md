@@ -1,7 +1,7 @@
 ---
 firstname: Oscar
 surname: Magnusson
-role: PhD student
+role: PhD
 order:
 alumni: 
 current-position: 

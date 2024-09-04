@@ -10,7 +10,7 @@
     {% assign group-leader = group-leader | push: person %}
   {% elsif person.role == 'PostDoc' %}
     {% assign postdoc = postdoc | push: person %} 
-  {% elsif person.role == 'PhD student' %}
+  {% elsif person.role == 'PhD' %}
     {% assign pdhs = phds | push: person %}      
   {% elsif person.alumni != nil %}
     {% assign alumni = alumni | push: person | sort: 'alumni' %}
