@@ -1,11 +1,17 @@
 {% assign people = site.people | sort_natural: 'surname' %}
 {% assign group-leader = site.array %}
+{% assign postdoc = site.array %}
+{% assign phds = site.array %}
 {% assign everyone-else = site.array %}
 {% assign alumni = site.array %}
 
 {% for person in people %}
   {% if person.role == 'Group leader' %}
     {% assign group-leader = group-leader | push: person %}
+  {% elsif person.role == 'PostDoc' %}
+    {% assign postdoc = postdoc | push: person %} 
+  {% elsif person.role == 'PhD student' %}
+    {% assign pdhs = phds | push: person %}      
   {% elsif person.alumni != nil %}
     {% assign alumni = alumni | push: person | sort: 'alumni' %}
   {% elsif person.alumni == nil %}
@@ -30,6 +36,42 @@
       <div class="info">
         <div class="name">{{ person.firstname }} {{ person.surname }}</div>
         <div class="role">Research Group Leader</div>        
+        <p>{{ person.bio }}</p>
+        <div class="contacts">{% include buttons.html %}</div>
+      </div>
+  </div>
+  {% endfor %}
+
+  {% for person in postdoc%}
+  <div class="member">
+      <div class="image">
+        {% if person.image_path != '' %}
+          <img src="{{ site.baseurl }}{{ person.image_path }}" title="{{ person.firstname }} {{ person.surname }}" alt="{{ person.firstname }} {{ person.surname }}" />
+        {% else %}
+          <img src="{{ site.baseurl }}{{ person.image_path }}" title="{{ person.firstname }} {{ person.surname }}" alt="{{ person.firstname }} {{ person.surname }}" style="visibility: hidden;"/>
+        {% endif %}
+      </div>
+      <div class="info">
+        <div class="name">{{ person.firstname }} {{ person.surname }}</div>
+        <div class="role">PostDoc</div>        
+        <p>{{ person.bio }}</p>
+        <div class="contacts">{% include buttons.html %}</div>
+      </div>
+  </div>
+  {% endfor %}
+
+  {% for person in phds %}
+  <div class="member">
+      <div class="image">
+        {% if person.image_path != '' %}
+          <img src="{{ site.baseurl }}{{ person.image_path }}" title="{{ person.firstname }} {{ person.surname }}" alt="{{ person.firstname }} {{ person.surname }}" />
+        {% else %}
+          <img src="{{ site.baseurl }}{{ person.image_path }}" title="{{ person.firstname }} {{ person.surname }}" alt="{{ person.firstname }} {{ person.surname }}" style="visibility: hidden;"/>
+        {% endif %}
+      </div>
+      <div class="info">
+        <div class="name">{{ person.firstname }} {{ person.surname }}</div>
+        <div class="role">PhD student</div>        
         <p>{{ person.bio }}</p>
         <div class="contacts">{% include buttons.html %}</div>
       </div>
