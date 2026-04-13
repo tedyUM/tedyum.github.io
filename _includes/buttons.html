@@ -15,6 +15,10 @@
     <li><a href="//twitter.com/{{ person.twitter }}" title="Follow {{ person.firstname }} {{ person.surname }} on Twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
     {% endif %}
 
+    {% if person.bluesky != nil %}
+    <li><a href="//bluesky.com/{{ person.bluesky }}" title="Follow {{ person.firstname }} {{ person.surname }} on Bluesky" target="_blank"><i class="fab fa-bluesky"></i></a></li>
+    {% endif %}
+
     {%- if person.linkedin != nil %}
     <li><a href="//linkedin.com/in/{{ person.linkedin }}" title="View {{ person.firstname }} {{ person.surname }} on LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>    
     {% endif %}

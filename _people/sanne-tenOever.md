@@ -9,7 +9,7 @@ current-position:
 email: sanne.tenoever@maastrichtuniversity.nl
 
 website:
-twitter: TenOever_Sanne
+twitter: 
 researchgate: Sanne_Ten_Oever
 impactstory:
 orcid: 0000-0001-7547-5842
